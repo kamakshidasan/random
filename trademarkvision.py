@@ -1,3 +1,6 @@
+# I wrote this code for my ex-girlfriend at CMU for an internship at TrademarkVision ~ She got selected.
+# Also, I write comments like this when my code goes out for production. 
+
 import math
 import sys
 import numpy as np
@@ -21,8 +24,7 @@ Running time Complexity:
 
 Compilation:
 
-        $ python code_supritha.py
-
+        $ python trademarkvision.py
 """
 
 
