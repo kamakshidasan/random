@@ -1,3 +1,18 @@
+# If you land on this page, you're thinking of applying to Rupesh Nasre's internship
+# The code is purposely written in an obfuscate manner
+# All I can tell you is that cheating is bad. 
+
+'''
+We usually have 8 bit characters. I take the binary representation of each character and concatenate all these bits, then I consider each string of six bits in the representation and map it as follows.
+
+0 -> A, 1 -> B, ..., 25 -> Z
+26 -> a, 27 -> b, ..., 51 -> z
+52 -> 0, 53 -> 1, ..., 61 -> 9
+62 -> +, 63 -> /
+With the above mapping, I can encode strings. For instance, string madras gets encoded as bWFkcmFz.
+Write a program (in any language) to reverse map a string using the above method to find out the original message. When your program is ready, try it on the following message and enter the decoded message in the text box.
+'''
+
 def p(b):
     p = ord(b)
     if (p>=65 and p<=90):
